@@ -1,0 +1,14 @@
+def season(mounth):
+  if mounth >= 3 and mounth <=5:
+    return 'spring'
+    
+  elif mounth >= 6 and mounth <=8:
+    return 'summer'
+    
+  elif mounth >= 9 and mounth <=11:
+    return 'autumn'
+    
+  elif mounth == 12 or mounth == 1 or month == 2:
+    return 'winter'
+    
+print season(1)
